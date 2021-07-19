@@ -9,7 +9,7 @@ Quote generator is a project where the user is able to generate a quote with his
 ## Setup/Installation Requirements
 * Clone repo using GitHub link
 ````````
-
+https://github.com/JosephKinyua/QuoteGenerator.git
 ````````
 * Open the project via vscode or any other code editor of your choice
 * Preview your cloned project or use live server to open it.
@@ -33,7 +33,7 @@ There is no any bug issue.
 For any query you can reach me vai email kinyuajoseph2014@gmail.com
 ## Live link
 ``````
-
+https://JosephKinyua.github.io/QuoteGenerator/
 ``````
 ### License
 [MIT Licence](https://choosealicense.com/licenses/mit/)
