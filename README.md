@@ -1,27 +1,40 @@
 # Quote
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+#### A project which describes about the quote generator where one can input his/her quotes, 2021
 
+#### By Joseph Nyaga
+## Description
+Quote generator is a project where the user is able to generate a quote with his/her details,ane can be able to highlight and view the countdown of the time since the quote was created,also the likes and the dislikes.
+
+## Setup/Installation Requirements
+* Clone repo using GitHub link
+````````
+
+````````
+* Open the project via vscode or any other code editor of your choice
+* Preview your cloned project or use live server to open it.
 ## Development server
+Make sure you have install Node Js, Angular & Node Package Manager Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+## Known Bugs
+There is no any bug issue.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies Used
+* HTML
 
-## Code scaffolding
+* CSS
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Git
 
-## Build
+* Bootstrap
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Angular
 
-## Running unit tests
+## Support and contact details
+For any query you can reach me vai email kinyuajoseph2014@gmail.com
+## Live link
+``````
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+``````
+### License
+[MIT Licence](https://choosealicense.com/licenses/mit/)
+Copyright (c) 2021 Joseph Nyaga.
