@@ -1,19 +1,22 @@
 <div class="container">
-    <h1>
-        My Qoute</h1>
+    <h1>Quotes</h1>
     <hr>
 
     <div class="row">
         <div class="col-md-6">
             <div *ngFor='let quote of quotes;let i = index'>
-                <h4>{{quote.title}}
-                </h4>
-                <button (click)='toggleDetails(i)' class="btn btn-outline-success">Toggle Details</button>
-                <app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+                <div>
+                    <h6> {{quote.dateUpload}}</h6>
+                    <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+                </div>
+
+                <div *ngIf='quote.showDescription' class="container bg-info">
+                    <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+                </div>
             </div>
         </div>
         <div class="col-md-6">
-            <app-quote-form></app-quote-form>
+            <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
         </div>
     </div>
 </div>
