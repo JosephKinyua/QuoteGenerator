@@ -12,6 +12,10 @@ export class QuoteComponent implements OnInit {
   new Quote(1,'life','Life is what happens when you are busy making other plans.','John Lennon','Mary'),
   new Quote(1,'love','A man is already halfway in love with any woman who listens to him.','Brendan Francis','chris doe')
   ];
+
+  toggleDetails(index:any){
+    this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  }
   constructor() { }
 
   ngOnInit(): void {
