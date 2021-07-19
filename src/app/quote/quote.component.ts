@@ -16,6 +16,11 @@ export class QuoteComponent implements OnInit {
   toggleDetails(index:any){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
+  completeQuote(isComplete:boolean, index:number){
+    if (isComplete) {
+      this.quotes.splice(index,1);
+    }
+  }
   constructor() { }
 
   ngOnInit(): void {
