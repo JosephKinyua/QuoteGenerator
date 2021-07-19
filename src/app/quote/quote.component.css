@@ -1,0 +1,11 @@
+.container {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.space {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 18px;
+}
