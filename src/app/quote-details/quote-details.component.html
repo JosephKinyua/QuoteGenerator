@@ -4,6 +4,7 @@
     <p>Quote: <i>{{quote.quote}}</i></p>
     <p>Author: <i>{{quote.author}}</i></p>
     <p>submitted by: <i>{{quote.submitted}}</i></p>
+    <p> countdown: {{quote.dateUpload|countdown}}</p>
     <p>{{quote.upVote}}</p>
     <button (click)='quoteUpVote()' class="btn btn-outline-secondary">upvote</button>
     <p>{{quote.downVote}}</p>
